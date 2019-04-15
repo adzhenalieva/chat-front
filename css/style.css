@@ -1,0 +1,101 @@
+body {
+    color: #000;
+    font-family: arial, sans-serif;
+    background: #ffffff;
+    line-height: 1.3;
+    font-size: 14px;
+    min-width: 900px;
+    margin: 0;
+}
+
+.container {
+    width: 900px;
+    margin: 30px;
+    padding: 10px;
+    position: relative;
+}
+
+#main {
+    display: inline-block;
+    margin: 20px 20px 20px 0;
+    font-size: 24px;
+    font-weight: bold;
+    font-style: italic;
+    color: #fec10e;
+}
+
+#preloader {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 50%;
+    background: rgba(255, 255, 255, 0.8) url(../images/3.gif) 50% 50% no-repeat;
+    display: none;
+}
+.messageDiv {
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #fec10e;
+    border-radius: 5px;
+}
+
+.author {
+    font-weight: bold;
+}
+.text {
+    font-style: italic;
+    font-size: 16px;
+    display: inline-block;
+    margin: 10px;
+}
+
+.postSend {
+    display: flex;
+    justify-content: space-between;
+    margin: 15px 0 30px;
+}
+
+#message {
+    width: 85%;
+    border-color: #fec10e;
+}
+
+#message,
+#sendMessage,
+#firstName,
+#lastName,
+#subscribeNewMail {
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.postsTitle {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 35px;
+}
+
+#openModalSubscribe {
+    float: right;
+    margin-top: 25px;
+    border-radius: 5px;
+    background: #fec10e;
+}
+#sendMessage,
+#edit,
+#unsubscribe,
+#checkSubscriptions{
+    border-radius: 5px;
+    background: #fec10e;
+}
+#subscriptons{
+    display: none;
+    border: 1px solid #fec10e;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+#closeDiv{
+    float: right;
+}
